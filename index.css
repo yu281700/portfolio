@@ -30,7 +30,7 @@ body {
     min-height: 100vh; /* 보이는 화면을 최소 높이로 */
     height: auto; /* 보이는 화면보다 내용이 많으면 자동으로 높이설정 */
 
-    border-bottom: 1px solid #ff6500;
+    border-bottom: 1px solid white;
 }
 
 /* 영문에 적용할 클래스 */
@@ -39,8 +39,8 @@ body {
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: plum;
+    color: gray;
     font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -88,17 +88,17 @@ header .gnb ul li a {
 
 header .gnb ul li.active a {
     background-color: #fff;
-    color: #ff6500;
+    color: gray;
     font-weight: 400;
     font-weight: 400;
 }
 
 
 #home {
-    background-image: url(img/bg_orange.png);
+    background-image: url(img/bg_star.png);
     background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 60% 100%;
+    background-position: absolute; right: 0; bottom: 0;
+    background-size: auto;
 
     position: relative;
 }
@@ -162,7 +162,7 @@ section.project {
     padding-left: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
-    background-color: #ff6500;
+    background-color: rgb(0, 246, 255);
 }
 .project-side .fixed-box {
     position: sticky;
@@ -256,8 +256,8 @@ section.project {
 
 #info .project-side {
     background-color: transparent;
-    border-right: 1px solid #ff6500;
-    color: #ff6500;
+    border-right: 1px solid rgb(0, 246, 255);
+    color: rgb(0, 246, 255);
 }
 
 
